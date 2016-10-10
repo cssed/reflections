@@ -1,0 +1,17 @@
+What happens when you initialize a repository? Why do you need
+to do it?
+
+In order to initialize a new repository in the folder desired
+you should type git init which will create a new repository, but
+it will not create any commit yet.
+
+
+How is the staging area different from the working directory
+and the repository? What value do you think it offers?
+
+The staging area is somewhere between the working directory and
+the repository, the idea is to collect all the files to be
+included in a commit before the commit is created. The command
+git add is used for that end.
+
+

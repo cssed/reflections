@@ -1,0 +1,65 @@
+How did viewing a diff between two versions of a file help you
+to see the bug that was introduced?
+
+It is quite straight forward when you just see few differences between large files.
+
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+Well, I think one don't have to worry that much about making
+a mistake, just keep going to find the solution you are
+looking for
+
+Also, It might help to find useful code for a new project
+
+
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google Docs does?
+
+Pros
+It is going to be meaningful
+Only important changes with description are saved
+
+Cons
+You might be too concentrated in the job that you might forget
+to save until is too late.
+System crash will throw all your effort to the garbage.
+
+
+Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google
+Docs, treat each file separately?
+
+They have different porpuses and different users, their needs
+may differ and that's why some approaches are better than
+others in some circumstances.
+
+
+How can you use the commands git log and git diff to view the
+history of files?
+
+git log will show the commits in the repository plus a short
+description
+
+by the use of the commit key, git diff can compare to 2 
+commits with thier associated files
+
+git log --stat will show a more complete description of every 
+commit
+
+
+How might using version control make you more confident to make
+changes that could break something?
+
+It keep everything in the same shape as it was before, if it 
+was working you don't have to worry, just go back or check the
+differences to see what was the problem.
+
+
+Now that you have your workspace set up, what do you want to try
+using Git for?
+
+I want to learn how to create repositories and add all my files
+to them when I am working in a project with code.
