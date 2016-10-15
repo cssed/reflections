@@ -15,3 +15,47 @@ included in a commit before the commit is created. The command
 git add is used for that end.
 
 
+How can you use the staging area to make sure you have one 
+commit per logical change?
+
+There is a way to check what is different between the folder
+directory to the staging area as well as from the staging area
+to the last commit. So you can check if the change that you
+have already made is in the staging area and/or in the last
+commit.
+
+
+What are some situations when branches would be helpful in
+keeping your history organized? How would branches help?
+
+Branches are usefull if there are some options to try, but
+the master one may continue being update. Branches just 
+create another set where all the files are modified with
+the aim of implement something additional to the main path
+but without changing it
+
+
+How do the diagrams help you visualize the branch structure?
+
+It is easier to identify where a new branch started, and how
+the other branches have developed after that point.
+
+
+What is the result of merging two branches together? Why do 
+we represent it in the diagram the way we do?
+
+The resulting commit will have information of both parents
+and will take one of the branches as a head (name) and the
+other can be deleted due to it has no longer valuable info.
+The branches show how 2 series of commits were developed
+independantly and then when they merge.
+
+
+What are the pros and cons of Git's automatic merging vs 
+always doing merges manually?
+
+Automatic merging will merge the files and show you the 
+conflics if they are present. It will work pretty well in
+merging branches entirely independent but you should be 
+careful when they are interconnected.
+
